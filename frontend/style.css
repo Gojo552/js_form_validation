@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+font-size: 2.3rem;
+color: tomato;
+text-align: center;
+}
+.container{
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#4A95CE;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 5px 5px 55px rgb(24, 19, 19);
+ }
+ h2{
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+ }
+ form{
+    margin-top: 20px;
+ }
+.form-type{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-type input{
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+label{
+    display: block;
+    font-weight: bold;
+}
+.label_1,.label_2,.label_3,.label_4,.label_5,.label_6,.label_7{
+    color: white;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.input input{
+    width: 100%;
+    padding: 0.4rem 0.4rem;
+    border: none;
+    border-radius: 3px;
+outline: none;
+}
+
+
+/* input[type="name"], */
+/* input[type="message"], */
+/* input[type="address"], */
+@media screen and (max-width:576px){
+    .container{
+        width: 100%;
+        padding: 30px 1rem;
+    }
+    h1{
+        font-size: 1.3rem;
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+
+ 
+ 
